@@ -1,6 +1,7 @@
 import { client } from "@/sanity/lib/client";
 import React from "react";
 
+
 interface nameTypee {
   name: string;
   _id: string;
@@ -13,6 +14,8 @@ export default async function Home() {
 }
 `);
   // console.log(nameData.name,"nameData");
+
+
 
   return (
     <div>
